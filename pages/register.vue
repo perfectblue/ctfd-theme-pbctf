@@ -41,6 +41,12 @@
 					name="password"
 				>
 			</div>
+			<div class="form-group">
+				Share info to sponsors (for hiring purpose)? &nbsp;
+ 					<input type="radio" id="fields[2]" name="fields[2]" value="Yes" checked/> Yes &nbsp;
+  					<input type="radio" id="fields[2]" name="fields[2]" value="No" /> No
+			</div>
+
 			<div>
         You may choose to create a shared team or individual account here, (you
         will still need to create a team account later).

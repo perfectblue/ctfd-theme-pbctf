@@ -3,10 +3,11 @@
 		<h2 class="title"><span>About</span></h2>
 		<h3>Period</h3>
 		<p class="period">
-			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201205T00" target="_blank" rel="noopener">12/05 00:00</a>
+			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20211009T00" target="_blank" rel="noopener">10/09 00:00</a>
 			-
-			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201206T1159" target="_blank" rel="noopener">12/06 23:59</a> <small>UTC</small>
+			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20211011T0000" target="_blank" rel="noopener">10/11 00:00</a> <small>UTC</small>
 		</p>
+		
 		<h3>Social</h3>
 		<ul class="socials">
 			<li>
@@ -31,15 +32,17 @@
 				</timeline>
 			</li>
 		</ul>
-		<h3>Prizes</h3>
-		<ul>
-			<li>1st: 5 Binary Ninja personal licenses, $300 cash</li>
-			<li>2nd: 3 personal licenses, $200 cash</li>
-			<li>3rd: 1 personal license, $100 cash</li>
-     		<li>1 personal license for best write-up using Binary Ninja Cloud</li>
-      		<small>* May be subject to change</small>
-		</ul>
 
+		<h3>Prizes</h3>
+		<p> We have a total prize pool of 7,000 USD! 🏆 </p><br>
+		<ul>
+			<li><b>1st place</b> - 3,000 USD (2,000 USD cash + 500 USD x 2 Amazon vouchers), 5 Binary Ninja Personal License</li><br>
+			<li><b>2nd place</b> - 2,000 USD (1,500 USD cash + 500 USD Amazon voucher),  3 Binary Ninja Personal License</li><br>
+			<li><b>3rd place</b> - 1,000 USD (500 USD cash + 500 USD Amazon voucher), 1 Binary Ninja Personal License</li><br>
+     		<li><b>Writeups </b> - 1,000 USD (10 selected writeups x 100 USD cash for each)</li><br>
+			<li><b>BN Cloud Writeup </b> - 1 Binary Ninja personal license to best writeup showing Binary Ninja Cloud usage</li><br>
+		</ul>
+<!--
 		<h3>Sponsors</h3>
 
 		<p style="display: block; margin: 0 auto; text-align: center;">
@@ -52,7 +55,7 @@
 		</p>
 		<p>Vector 35 makes <a href="https://binary.ninja">Binary Ninja</a>.</p>
 		<p>If you're interested in building reverse engineering tools, <a href="https://vector35.com/hiring.html">contact us</a>.
-		
+		-->
 		<h3>Staff</h3>
 		<a href="https://perfect.blue" target="_blank" rel="noopener">
 			<img class=logo src="https://blog.perfect.blue/img/logo.png">
@@ -61,21 +64,23 @@
 			pbctf is organized by <a href="https://perfect.blue" target="_blank"
       rel="noopener">perfect blue</a>.
 		</p>
-		<p>Below is the full list of perfect blue members (and guests) who contributed to this pbctf edition. Many thanks to their efforts!</p>
+		<p>perfect blue is the top ranked CTF team on CTFTime worldwide rankings since 2019. Follow <a href="https://blog.perfect.blue/perfect-blue-finishes-top-1-on-CTFtime-2020">here</a> to read more about us.</p>
+		<br><p>Below is the full list of <a href="https://twitter.com/pb_ctf">perfect blue</a> members (and guests) who contributed to this pbctf edition. Many thanks to their efforts!</p>
 		<ul class="credits">
 			<li><a href="https://twitter.com/ret2jazzy" target="_blank" rel="noopener">@ret2jazzy</a></li>
 			<li><a href="https://twitter.com/aaditya_purani" target="_blank" rel="noopener">@aaditya_purani</a></li>
 			<li><a href="https://twitter.com/gf_256" target="_blank" rel="noopener">@gf_256 (cts)</a></li>
 			<li><a href="https://twitter.com/sampriti0" target="_blank" rel="noopener">@sampriti0</a></li>
-			<li><a href="https://twitter.com/_neptunia_" target="_blank" rel="noopener">@_neptunia_</a></li>
 			<li><a href="https://twitter.com/wcbowling" target="_blank" rel="noopener">@wcbowling</a></li>
 			<li><a href="https://twitter.com/kidofarcrania" target="_blank" rel="noopener">@kidofarcrania</a></li>
 			<li><a href="https://twitter.com/0x464c457f" target="_blank" rel="noopener">@0x464c457f</a></li>
 			<li><a href="https://twitter.com/RBTree_" target="_blank" rel="noopener">@RBTree_</a></li>
-			<li><a href="https://twitter.com/Corb3nik" target="_blank" rel="noopener">@Corb3nik</a></li>
 			<li><a href="https://twitter.com/_VoidMercy" target="_blank" rel="noopener">@_VoidMercy</a></li>
-			<li><a href="https://twitter.com/bemusicscript" target="_blank" rel="noopener">@bemusicscript</a></li>
+			<li><a href="" target="_blank" rel="noopener">@IKEA</a></li>
+			<li><a href="https://twitter.com/j0nathanj" target="_blank" rel="noopener">@j0nathanj</a></li>
 			<li><a href="https://twitter.com/Unblvr1" target="_blank" rel="noopener">@Unblvr1</a></li>
+			<li><a href="https://twitter.com/Corb3nik" target="_blank" rel="noopener">@Corb3nik</a></li>
+			<li><a href="https://twitter.com/_neptunia_" target="_blank" rel="noopener">@_neptunia_</a></li>
 		</ul>
 	</section>
 </template>

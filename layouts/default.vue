@@ -2,7 +2,7 @@
 	<div>
 		<div class="header">
 			<div class="title">
-				<iso-link to="/">pbctf 2020</iso-link>
+				<iso-link to="/">pbctf 2021</iso-link>
 			</div>
 			<div class="spacer"/>
 			<div v-if="isLoggedIn">
@@ -16,6 +16,7 @@
 						<div v-if="isDropping" class="dropdown-menu" @click="onClickDropdown">
 							<iso-link to="/notifications" class="dropdown-menu-item">Notifications</iso-link>
 							<iso-link to="/about" class="dropdown-menu-item">About</iso-link>
+							<iso-link to="/sponsors" class="dropdown-menu-item">Sponsors</iso-link>
 							<iso-link to="/rules" class="dropdown-menu-item">Rules</iso-link>
 							<iso-link to="/scoreboard" class="dropdown-menu-item">Scoreboard</iso-link>
 							<iso-link to="/challenges" class="dropdown-menu-item">Challenges</iso-link>
@@ -36,6 +37,9 @@
 					</div>
 					<div class="menu-item">
 						<iso-link to="/about">About</iso-link>
+					</div>
+					<div class="menu-item">
+						<iso-link to="/sponsors">Sponsors</iso-link>
 					</div>
 					<div class="menu-item">
 						<iso-link to="/rules">Rules</iso-link>
@@ -70,6 +74,7 @@
 						</div>
 						<div v-if="isDropping" class="dropdown-menu" @click="onClickDropdown">
 							<iso-link to="/about" class="dropdown-menu-item">About</iso-link>
+							<iso-link to="/sponsors" class="dropdown-menu-item">Sponsors</iso-link>
 							<iso-link to="/rules" class="dropdown-menu-item">Rules</iso-link>
 							<iso-link to="/scoreboard" class="dropdown-menu-item">Scoreboard</iso-link>
 							<iso-link to="/login" class="dropdown-menu-item">Login</iso-link>
@@ -80,6 +85,9 @@
 				<div v-else class="menu">
 					<div class="menu-item">
 						<iso-link to="/about">About</iso-link>
+					</div>
+					<div class="menu-item">
+						<iso-link to="/sponsors">Sponsors</iso-link>
 					</div>
 					<div class="menu-item">
 						<iso-link to="/rules">Rules</iso-link>
@@ -100,18 +108,20 @@
 			<nuxt/>
 		</div>
 		<div class="footer">
-			<p class="v35-line">
+			<p class="dfsec-line">
 				Sponsored by
-				<a href="https://vector35.com/" target="_blank" rel="noopener">
-					<img class="v35" src="../static/v35.png" alt="vector35">
+				<a href="https://dfsec.it/" target="_blank" rel="noopener">
+					<img class="dfsec" src="https://dfsec.it/images/dataflow.svg" alt="dfsec" width=400 height=200>
 				</a>
 			</p>
+			<!--
 			<p class="gcloud-line"> 
 				Infra sponsored by
 				<a href="https://g.co/cloud" target="_blank" rel="noopener">
 					<img class="gcloud" src="../static/gcloud.png" alt="google cloud">
 				</a>
 			</p>
+			-->
 			<p>Organized by <a href="https://perfect.blue/" target="_blank" rel="noopener">perfect blue</a></p>
 			<p>Powered by <a href="https://ctfd.io/" target="_blank" rel="noopener">CTFd</a></p>
 			<p>Theme base by TSG CTF<img class="ojigineko" src="../static/ojigineko-white.gif" alt="ojigineko" width=14pt></p>
@@ -441,7 +451,7 @@ section > h2.title {
 		color: #90cbff;
 	}
 
-	.v35-line {
+	.dfsec-line {
 		line-height: 3.5rem;
 
 		&::before {
@@ -452,7 +462,7 @@ section > h2.title {
 		}
 	}
 
-	.v35 {
+	.dfsec {
 		vertical-align: middle;
 		width: 18rem;
 	}

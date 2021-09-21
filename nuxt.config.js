@@ -20,12 +20,12 @@ export default {
 			{
 				name: 'description',
 				hid: 'description',
-				content: "pbctf is perfect blue's premiere capture the flag event",
+				content: "pbctf is perfect blue's second annual capture the flag event",
 			},
 			{name: 'apple-mobile-web-app-title', content: 'pbctf'},
 			{name: 'og:title', content: 'pbctf'},
 			{name: 'og:site_name', content: 'pbctf'},
-			{name: 'og:description', content: "pbctf is perfect blue's premiere capture the flag event"},
+			{name: 'og:description', content: "pbctf is perfect blue's second annual capture the flag event"},
 			{name: 'og:type', content: 'website'},
 			{name: 'og:url', content: 'https://ctf.perfect.blue'},
 			{name: 'og:image', content: `${staticBase}/ogimage.png`},
@@ -34,7 +34,7 @@ export default {
 			{name: 'twitter:title', content: 'pbctf'},
 			{
 				name: 'twitter:description',
-				content: "pbctf is perfect blue's premiere capture the flag event",
+				content: "pbctf is perfect blue's second annual capture the flag event",
 			},
 			{name: 'twitter:image', content: `${staticBase}/ogimage.jpg`},
 			{name: 'twitter:image:alt', content: 'pbctf'},
