@@ -1,13 +1,12 @@
 <template>
 	<section class="Reset">
 		<h2 class="title"><span>Reset Password</span></h2>
-		<p>Sorry, please contact an organizer to have your password reset</p>
+		<p>Sorry, please contact an organizer to have your password reset through discord</p>
 	</section>
 </template>
 
 <script>
 import {mapState} from 'vuex';
-
 export default {
 	data() {
 		return {
@@ -39,11 +38,9 @@ export default {
 <style>
 .Reset {
 	text-align: center;
-
 	.title {
 		margin-bottom: 3rem;
 	}
-
 	.subtitle {
 		margin-bottom: 1rem;
 		font-size: 1.5rem;

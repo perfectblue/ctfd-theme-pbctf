@@ -373,7 +373,7 @@ export const actions = {
 		}
 	},
 	async updateSponsors({commit}, {$axios}) {
-		const {data, headers} = await $axios.get('/api/v1/pages/3');
+		const {data, headers} = await $axios.get('/api/v1/sponsors');
 		if (headers['content-type'] === 'application/json') {
 			commit('setSponsors', data.data.content);
 		}

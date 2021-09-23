@@ -109,19 +109,11 @@
 		</div>
 		<div class="footer">
 			<p class="dfsec-line">
-				Sponsored by
+				Premier Sponsored by
 				<a href="https://dfsec.it/" target="_blank" rel="noopener">
-					<img class="dfsec" src="https://dfsec.it/images/dataflow.svg" alt="dfsec" width=400 height=200>
+					<img class="dfsec" src="../static/dataflow.svg" alt="dfsec" width=400 height=200>
 				</a>
 			</p>
-			<!--
-			<p class="gcloud-line"> 
-				Infra sponsored by
-				<a href="https://g.co/cloud" target="_blank" rel="noopener">
-					<img class="gcloud" src="../static/gcloud.png" alt="google cloud">
-				</a>
-			</p>
-			-->
 			<p>Organized by <a href="https://perfect.blue/" target="_blank" rel="noopener">perfect blue</a></p>
 			<p>Powered by <a href="https://ctfd.io/" target="_blank" rel="noopener">CTFd</a></p>
 			<p>Theme base by TSG CTF<img class="ojigineko" src="../static/ojigineko-white.gif" alt="ojigineko" width=14pt></p>

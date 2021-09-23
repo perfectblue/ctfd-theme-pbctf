@@ -1,5 +1,6 @@
 <template>
 	<section class="Register">
+		<script src="https://www.google.com/recaptcha/api.js" async="true" defer=""></script>
 		<h2 class="title"><span>Register</span></h2>
 		<div class="subtitle">or <iso-link to="/login">Login</iso-link></div>
 		<form
@@ -43,10 +44,12 @@
 			</div>
 			<div class="form-group">
 				Share info to sponsors (for hiring purpose)? &nbsp;
- 					<input type="radio" id="fields[2]" name="fields[2]" value="Yes" checked/> Yes &nbsp;
-  					<input type="radio" id="fields[2]" name="fields[2]" value="No" /> No
+ 					<input type="radio" id="fields[1]" name="fields[1]" value="Yes" checked/> Yes &nbsp;
+  					<input type="radio" id="fields[1]" name="fields[1]" value="No" /> No
 			</div>
-
+			<div class="form-group">
+			<div class="g-recaptcha" data-size="normal" data-sitekey="6LfQh4UcAAAAABe57KhqjDpli8njkM0-OFjGRhm8"></div>
+			</div>
 			<div>
         You may choose to create a shared team or individual account here, (you
         will still need to create a team account later).

@@ -36,7 +36,7 @@
 				</button>
 			</div>
 			<div v-if="isError" class="error">
-				Login errored. Maybe incorrect username of password?
+				Login errored. Maybe incorrect username or password?
 			</div>
 			<div>
 				<iso-link to="/reset_password">
