@@ -7,6 +7,16 @@
 			-
 			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20211011T0000" target="_blank" rel="noopener">10/11 00:00</a> <small>UTC</small>
 		</p>
+
+		<h3>Prizes</h3>
+		<p> We have a total prize pool of 7,000 USD! 🏆 </p><br>
+		<ul>
+			<li><b>1st place</b> - 3,000 USD (2,000 USD cash + 500 USD x 2 Amazon vouchers), 5 Binary Ninja Personal License</li><br>
+			<li><b>2nd place</b> - 2,000 USD (1,500 USD cash + 500 USD Amazon voucher),  3 Binary Ninja Personal License</li><br>
+			<li><b>3rd place</b> - 1,000 USD (500 USD cash + 500 USD Amazon voucher), 1 Binary Ninja Personal License</li><br>
+     		<li><b>Writeups </b> - 1,000 USD (10 selected writeups x 100 USD cash for each)</li><br>
+			<li><b>BN Cloud Writeup </b> - 1 Binary Ninja personal license to best writeup showing Binary Ninja Cloud usage</li><br>
+		</ul>
 		
 		<h3>Social</h3>
 		<ul class="socials">
@@ -32,7 +42,7 @@
 				</timeline>
 			</li>
 		</ul>
-
+<!--
 		<h3>Prizes</h3>
 		<p> We have a total prize pool of 7,000 USD! 🏆 </p><br>
 		<ul>
@@ -42,7 +52,7 @@
      		<li><b>Writeups </b> - 1,000 USD (10 selected writeups x 100 USD cash for each)</li><br>
 			<li><b>BN Cloud Writeup </b> - 1 Binary Ninja personal license to best writeup showing Binary Ninja Cloud usage</li><br>
 		</ul>
-<!--
+
 		<h3>Sponsors</h3>
 
 		<p style="display: block; margin: 0 auto; text-align: center;">
@@ -55,7 +65,7 @@
 		</p>
 		<p>Vector 35 makes <a href="https://binary.ninja">Binary Ninja</a>.</p>
 		<p>If you're interested in building reverse engineering tools, <a href="https://vector35.com/hiring.html">contact us</a>.
-		-->
+-->
 		<h3>Staff</h3>
 		<a href="https://perfect.blue" target="_blank" rel="noopener">
 			<img class=logo src="https://blog.perfect.blue/img/logo.png">
