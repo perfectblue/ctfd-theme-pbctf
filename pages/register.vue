@@ -47,6 +47,9 @@
  					<input type="radio" id="fields[1]" name="fields[1]" value="Yes" checked/> Yes &nbsp;
   					<input type="radio" id="fields[1]" name="fields[1]" value="No" /> No
 			</div>
+			<div>
+				By signing up, you agree with our <a href="themes/pbctf/static/tnc.pdf"><u>T&C</u></a> and <a href="themes/pbctf/static/PRIVACYNOTICE.pdf"><u>Privacy Policy</u></a>
+			</div>
 			<div class="form-group">
 			<div class="g-recaptcha" data-size="normal" data-sitekey="6LfQh4UcAAAAABe57KhqjDpli8njkM0-OFjGRhm8"></div>
 			</div>
