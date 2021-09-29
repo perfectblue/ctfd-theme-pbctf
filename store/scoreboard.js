@@ -1,8 +1,8 @@
+import get from 'lodash/get';
 export const state = () => ({
 	scoreboard: [],
 	teams: [],
 });
-
 export const getters = {
 	getScore: (s) => (id) => s.scoreboard.find((team) => team.account_id === id) || {
 		score: 0,
@@ -12,7 +12,6 @@ export const getters = {
 		const listedTeams = new Set(s.scoreboard.map((team) => team.account_id));
 		const nonListedTeams = s.teams.filter(({id}) => !listedTeams.has(id));
 		const teamsMap = new Map(s.teams.map((team) => [team.id, team]));
-
 		return [
 			...s.scoreboard.map((team) => ({
 				...team,
@@ -28,7 +27,6 @@ export const getters = {
 		];
 	},
 };
-
 export const mutations = {
 	setScoreboard(s, scoreboard) {
 		s.scoreboard = scoreboard;
@@ -37,7 +35,6 @@ export const mutations = {
 		s.teams = teams;
 	},
 };
-
 export const actions = {
 	async update({dispatch}, {$axios}) {
 		await Promise.all([dispatch('updateScoreboard', {$axios}), dispatch('updateTeams', {$axios})]);
@@ -51,11 +48,21 @@ export const actions = {
 		}
 	},
 	async updateTeams({commit}, {$axios}) {
-		const {data, headers} = await $axios.get('/api/v1/teams');
-		if (headers['content-type'] === 'application/json') {
-			commit('setTeams', data.data);
-		} else {
-			commit('setIsLoggedIn', false, {root: true});
+		const teams = [];
+		let page = 1;
+		while (page <= 20) {
+			const {data, headers} = await $axios.get('/api/v1/teams', {params: {page}});
+			if (headers['content-type'] !== 'application/json') {
+				commit('setIsLoggedIn', false, {root: true});
+				return;
+			}
+			teams.push(...get(data, ['data'], []));
+			const next = get(data, ['meta', 'pagination', 'next'], null);
+			if (next === null) {
+				break;
+			}
+			page++;
 		}
+		commit('setTeams', teams);
 	},
 };
