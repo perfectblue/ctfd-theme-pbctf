@@ -42,11 +42,9 @@ export default {
 			myTeam: 'team',
 		}),
 	},
-	async asyncData(context) {
-		await context.store.dispatch('scoreboard/update', context);
-	},
 	mounted() {
 		if (!this.isStatic) {
+			this.$store.dispatch('scoreboard/update', {$axios: this.$axios});
 			this.interval = setInterval(() => {
 				this.$store.dispatch('scoreboard/update', {$axios: this.$axios});
 			}, 60 * 1000);
