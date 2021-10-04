@@ -111,7 +111,7 @@
 			<p class="dfsec-line">
 				Premier Sponsored by
 				<a href="https://dfsec.it/" target="_blank" rel="noopener">
-					<img class="dfsec" src="../static/dataflow.svg" alt="dfsec" width=400 height=200>
+					<img class="dfsec" src="../static/dataflow1.svg" alt="dfsec" width=400 height=200>
 				</a>
 			</p>
 			<p>Organized by <a href="https://perfect.blue/" target="_blank" rel="noopener">perfect blue</a></p>

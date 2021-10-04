@@ -13,6 +13,7 @@ export const state = () => ({
 	team: {},
 	rules: '',
 	sponsors:'',
+	teamCode:'',
 	countries: [
 		['AF', 'Afghanistan'],
 		['AX', 'Åland Islands'],
@@ -312,6 +313,9 @@ export const mutations = {
 	setTeam(s, payload) {
 		s.team = {...s.team, ...payload};
 	},
+	setTeamCode(s, payload){
+		s.teamCode = payload;
+	}
 };
 
 export const actions = {
@@ -376,6 +380,12 @@ export const actions = {
 		const {data, headers} = await $axios.get('/api/v1/sponsors');
 		if (headers['content-type'] === 'application/json') {
 			commit('setSponsors', data.data.content);
+		}
+	},
+	async updateTeamCode({commit}, {$axios}){
+		const {data, headers} = await $axios.get('/api/v1/teams/me/team_code');
+		if (headers['content-type'] === 'application/json') {
+			commit('setTeamCode', data.data.team_code);
 		}
 	},
 	async updateCsrfToken({commit, state: s}, {$axios}) {

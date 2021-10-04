@@ -1,6 +1,15 @@
 <template>
 	<section class="Settings">
 		<h2 class="title"><span>Settings</span></h2>
+			<h4 class="subtitle"><span>Team Code</span></h4>
+			<h3>📌 Use your team code for requesting per-team instance challenges, keep it safe and private!</h3><br>
+			<h4>
+			<div
+				class="teamcode"
+				v-html="$md.render(teamCode)"
+			/>
+			</h4>
+			<br>
 		<div class="subtitle">
 			User settings
 		</div>
@@ -276,7 +285,7 @@ export default {
 		};
 	},
 	computed: {
-		...mapState(['isLoggedIn', 'isInTeam', 'csrfToken', 'user', 'team', 'countries']),
+		...mapState(['isLoggedIn', 'isInTeam', 'csrfToken', 'user', 'team', 'countries', 'teamCode']),
 	},
 	watch: {
 		user(newValue) {
@@ -288,6 +297,7 @@ export default {
 	},
 	async asyncData(context) {
 		await context.store.dispatch('updateCsrfToken', context);
+		await context.store.dispatch('updateTeamCode', context);
 	},
 	mounted() {
 		if (!this.isLoggedIn) {

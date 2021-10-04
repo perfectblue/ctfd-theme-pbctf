@@ -9,13 +9,13 @@
 		</p>
 
 		<h3>Prizes</h3>
-		<p> We have a total prize pool of 7,000 USD! 🏆 </p><br>
+		<p> We have a total prize pool of 7,500 USD! 🏆 </p><br>
 		<ul>
 			<li><b>1st place</b> - 3,000 USD (2,000 USD cash + 500 USD x 2 Amazon vouchers), 5 Binary Ninja Personal License</li><br>
 			<li><b>2nd place</b> - 2,000 USD (1,500 USD cash + 500 USD Amazon voucher),  3 Binary Ninja Personal License</li><br>
 			<li><b>3rd place</b> - 1,000 USD (500 USD cash + 500 USD Amazon voucher), 1 Binary Ninja Personal License</li><br>
-     		<li><b>Writeups </b> - 1,000 USD (10 selected writeups x 100 USD cash for each)</li><br>
-			<li><b>BN Cloud Writeup </b> - 1 Binary Ninja personal license to best writeup showing Binary Ninja Cloud usage</li><br>
+     		<li><b>Writeups </b> - 1,400 USD (9 selected writeups x 100 USD cash for each, 1 selected writeup x 500 USD Amazon voucher)</li><br>
+			<li><b>BN Cloud Writeup </b> - 1 Binary Ninja personal license to best writeup showing Binary Ninja Cloud usage, 100 USD</li><br>
 		</ul>
 		
 		<h3>Social</h3>
@@ -42,30 +42,7 @@
 				</timeline>
 			</li>
 		</ul>
-<!--
-		<h3>Prizes</h3>
-		<p> We have a total prize pool of 7,000 USD! 🏆 </p><br>
-		<ul>
-			<li><b>1st place</b> - 3,000 USD (2,000 USD cash + 500 USD x 2 Amazon vouchers), 5 Binary Ninja Personal License</li><br>
-			<li><b>2nd place</b> - 2,000 USD (1,500 USD cash + 500 USD Amazon voucher),  3 Binary Ninja Personal License</li><br>
-			<li><b>3rd place</b> - 1,000 USD (500 USD cash + 500 USD Amazon voucher), 1 Binary Ninja Personal License</li><br>
-     		<li><b>Writeups </b> - 1,000 USD (10 selected writeups x 100 USD cash for each)</li><br>
-			<li><b>BN Cloud Writeup </b> - 1 Binary Ninja personal license to best writeup showing Binary Ninja Cloud usage</li><br>
-		</ul>
 
-		<h3>Sponsors</h3>
-
-		<p style="display: block; margin: 0 auto; text-align: center;">
-		<a href="https://vector35.com" target="_blank" rel="noopener">
-			<img src="../static/v35.png" class="sponsor">
-		</a>
-		<a href="https://vector35.com" target="_blank" rel="noopener">
-			<img src="../static/binja.png" class="sponsor">
-		</a>
-		</p>
-		<p>Vector 35 makes <a href="https://binary.ninja">Binary Ninja</a>.</p>
-		<p>If you're interested in building reverse engineering tools, <a href="https://vector35.com/hiring.html">contact us</a>.
--->
 		<h3>Staff</h3>
 		<a href="https://perfect.blue" target="_blank" rel="noopener">
 			<img class=logo src="https://blog.perfect.blue/img/logo.png">
@@ -89,7 +66,7 @@
 			<li><a href="" target="_blank" rel="noopener">@IKEA</a></li>
 			<li><a href="https://twitter.com/j0nathanj" target="_blank" rel="noopener">@j0nathanj</a></li>
 			<li><a href="https://twitter.com/Unblvr1" target="_blank" rel="noopener">@Unblvr1</a></li>
-			<li><a href="https://twitter.com/Corb3nik" target="_blank" rel="noopener">@Corb3nik</a></li>
+			<li><a href="https://twitter.com/elafargue" target="_blank" rel="noopener">@elafargue</a></li>
 			<li><a href="https://twitter.com/_neptunia_" target="_blank" rel="noopener">@_neptunia_</a></li>
 		</ul>
 	</section>
