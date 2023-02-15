@@ -111,7 +111,7 @@
 			<p class="zellic-line">
 				Premier Sponsored by
 				<a href="https://zellic.io/" target="_blank" rel="noopener">
-					<img class="zellic" src="../static/zellic1.svg" alt="zellic">
+					<img class="zellic" src="../static/zellic2.png" alt="zellic">
 				</a>
 			</p>
 			<p>Organized by <a href="https://perfect.blue/" target="_blank" rel="noopener">perfect blue</a></p>
@@ -454,7 +454,7 @@ section > h2.title {
 		}
 
 		img {
-			padding: 2rem;
+			padding: 2.5rem;
 		}
 	}
 
