@@ -74,6 +74,13 @@ const templates = [
 	meta.name = 'csrf-token';
 	meta.content = '{{nonce()}}';
 	dom.window.document.querySelector('head').appendChild(meta);
+
+	const errors = dom.window.document.createElement('script');
+	errors.type = 'application/json';
+	errors.id = 'form-errors';
+	errors.textContent = '{% if errors %}{{errors|tojson}}{% endif %}';
+	dom.window.document.querySelector('head').appendChild(errors);
+
 	const html = dom.serialize();
 
 	for (const template of templates) {

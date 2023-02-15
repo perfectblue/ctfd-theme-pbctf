@@ -57,8 +57,9 @@
         You may choose to create a shared team or individual account here, (you
         will still need to create a team account later).
 			</div>
-			<div v-if="isError" class="error">
-				Registration errored. Maybe username already taken?
+			<div v-for="error in errors" class="error">
+			  {{ error }}
+			  <br />
 			</div>
 			<div>
 				<button id="submit" type="submit" tabindex="5">
@@ -78,7 +79,7 @@ export default {
 	components: {IsoLink},
 	data() {
 		return {
-			isError: false,
+			errors: [],
 		};
 	},
 	computed: {
@@ -88,10 +89,11 @@ export default {
 		await context.store.dispatch('updateCsrfToken', context);
 	},
 	mounted() {
-		if (document.referrer) {
-			const referrer = new URL(document.referrer);
-			if (referrer.pathname === '/register') {
-				this.isError = true;
+		let errors_json = document.getElementById('form-errors').textContent.trim();
+		if (errors_json !== '') {
+			let errors = JSON.parse(errors_json);
+			if (errors.length > 0) {
+				this.errors = errors;
 			}
 		}
 	},
