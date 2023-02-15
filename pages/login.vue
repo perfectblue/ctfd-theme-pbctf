@@ -35,8 +35,9 @@
 					Submit
 				</button>
 			</div>
-			<div v-if="isError" class="error">
-				Login errored. Maybe incorrect username or password?
+			<div v-for="error in errors" class="error">
+			  {{ error }}
+			  <br />
 			</div>
 			<div>
 				<iso-link to="/reset_password">
@@ -56,7 +57,7 @@ export default {
 	components: {IsoLink},
 	data() {
 		return {
-			isError: false,
+			errors: [],
 		};
 	},
 	computed: {
@@ -66,10 +67,11 @@ export default {
 		await context.store.dispatch('updateCsrfToken', context);
 	},
 	mounted() {
-		if (document.referrer) {
-			const referrer = new URL(document.referrer);
-			if (referrer.pathname === '/login') {
-				this.isError = true;
+		let errors_json = document.getElementById('form-errors').textContent.trim();
+		if (errors_json !== '') {
+			let errors = JSON.parse(errors_json);
+			if (errors.length > 0) {
+				this.errors = errors;
 			}
 		}
 	},
