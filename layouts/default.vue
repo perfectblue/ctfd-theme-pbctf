@@ -108,10 +108,10 @@
 			<nuxt/>
 		</div>
 		<div class="footer">
-			<p class="dfsec-line">
+			<p class="zellic-line">
 				Premier Sponsored by
-				<a href="https://dfsec.it/" target="_blank" rel="noopener">
-					<img class="dfsec" src="../static/dataflow1.svg" alt="dfsec" width=400 height=200>
+				<a href="https://zellic.io/" target="_blank" rel="noopener">
+					<img class="zellic" src="../static/zellic.svg" alt="zellic" width=400 height=400>
 				</a>
 			</p>
 			<p>Organized by <a href="https://perfect.blue/" target="_blank" rel="noopener">perfect blue</a></p>
@@ -443,7 +443,7 @@ section > h2.title {
 		color: #90cbff;
 	}
 
-	.dfsec-line {
+	.zellic-line {
 		line-height: 3.5rem;
 
 		&::before {
@@ -454,7 +454,7 @@ section > h2.title {
 		}
 	}
 
-	.dfsec {
+	.zellic {
 		vertical-align: middle;
 		width: 18rem;
 	}

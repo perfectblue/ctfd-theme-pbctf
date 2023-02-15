@@ -62,13 +62,11 @@
 			<li><a href="https://twitter.com/sampriti0" target="_blank" rel="noopener">@sampriti0</a></li>
 			<li><a href="https://twitter.com/wcbowling" target="_blank" rel="noopener">@wcbowling</a></li>
 			<li><a href="https://twitter.com/kidofarcrania" target="_blank" rel="noopener">@kidofarcrania</a></li>
-			<li><a href="https://twitter.com/0x464c457f" target="_blank" rel="noopener">@0x464c457f</a></li>
+			<li><a href="https://twitter.com/typeconfuser" target="_blank" rel="noopener">@typeconfuser</a></li>
 			<li><a href="https://twitter.com/RBTree_" target="_blank" rel="noopener">@RBTree_</a></li>
 			<li><a href="https://twitter.com/_VoidMercy" target="_blank" rel="noopener">@_VoidMercy</a></li>
-			<li><a href="" target="_blank" rel="noopener">@IKEA</a></li>
 			<li><a href="https://twitter.com/j0nathanj" target="_blank" rel="noopener">@j0nathanj</a></li>
 			<li><a href="https://twitter.com/Unblvr1" target="_blank" rel="noopener">@Unblvr1</a></li>
-			<li><a href="https://twitter.com/elafargue" target="_blank" rel="noopener">@elafargue</a></li>
 			<li><a href="https://twitter.com/_neptunia_" target="_blank" rel="noopener">@_neptunia_</a></li>
 		</ul>
 	</section>
