@@ -111,7 +111,7 @@
 			<p class="zellic-line">
 				Premier Sponsored by
 				<a href="https://zellic.io/" target="_blank" rel="noopener">
-					<img class="zellic" src="../static/zellic.svg" alt="zellic" width=400 height=400>
+					<img class="zellic" src="../static/zellic.svg" alt="zellic" width=200 height=200>
 				</a>
 			</p>
 			<p>Organized by <a href="https://perfect.blue/" target="_blank" rel="noopener">perfect blue</a></p>

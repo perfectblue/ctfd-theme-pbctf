@@ -23,15 +23,10 @@
 		<h3>Social</h3>
 		<ul class="socials">
 			<li>
-				<iframe
-					src="https://discord.com/widget?id=748672086838607943&theme=dark"
-					allowtransparency="true"
-					frameborder="0"
-					width="350"
-					height="500"
-          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-				>
-					<a href="https://discord.gg/8BhEHts" target="_blank" rel="noopener">Discord</a>
+				<iframe src="https://discord.com/widget?id=748672086838607943&theme=dark" width="350" height="500"
+					allowtransparency="true" frameborder="0"
+					sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+					<a href="https://discord.gg/7mNgBEHreu" target="_blank" rel="noopener">Discord</a>
 				</iframe>
 			</li>
 			<li>
