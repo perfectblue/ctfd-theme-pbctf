@@ -3,11 +3,12 @@
 		<h2 class="title"><span>About</span></h2>
 		<h3>Period</h3>
 		<p class="period">
-			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20211009T00" target="_blank" rel="noopener">10/09 00:00</a>
+			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230218T1400" target="_blank" rel="noopener">02/18 14:00</a>
 			-
-			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20211011T0000" target="_blank" rel="noopener">10/11 00:00</a> <small>UTC</small>
+			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230220T0200" target="_blank" rel="noopener">02/20 02:00</a> <small>UTC</small>
 		</p>
 
+		<!--
 		<h3>Prizes</h3>
 		<p> We have a total prize pool of 7,500 USD! 🏆 </p><br>
 		<ul>
@@ -17,6 +18,7 @@
      		<li><b>Writeups </b> - 1,400 USD (9 selected writeups x 100 USD cash for each, 1 selected writeup x 500 USD Amazon voucher)</li><br>
 			<li><b>BN Cloud Writeup </b> - 1 Binary Ninja personal license to best writeup showing Binary Ninja Cloud usage, 100 USD</li><br>
 		</ul>
+		-->
 		
 		<h3>Social</h3>
 		<ul class="socials">

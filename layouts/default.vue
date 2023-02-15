@@ -2,7 +2,7 @@
 	<div>
 		<div class="header">
 			<div class="title">
-				<iso-link to="/">pbctf 2021</iso-link>
+				<iso-link to="/">pbctf 2023</iso-link>
 			</div>
 			<div class="spacer"/>
 			<div v-if="isLoggedIn">

@@ -3,7 +3,7 @@
 		<div class="index-content">
 			<h1 class="ctf-logo">pbctf</h1>
 			<br>
-			<p class="subtitle">pbctf is perfect blue's second annual capture the flag event</p>
+			<p class="subtitle">pbctf is perfect blue's third annual capture the flag event</p>
 			<div class="timer">{{timer}}</div>
 			<div v-if="!isLoggedIn" class="buttons">
 				<iso-link to="/login" class="button login">Login</iso-link>
@@ -17,8 +17,8 @@
 import IsoLink from '~/components/IsoLink.vue';
 import {mapState} from 'vuex';
 
-const contestStart = new Date('2021-10-09T00:00:00Z').getTime();
-const contestEnd = new Date('2021-10-11T00:00:00Z').getTime();
+const contestStart = new Date('2023-02-18T14:00:00Z').getTime();
+const contestEnd = new Date('2023-02-20T02:00:00Z').getTime();
 
 export default {
 	components: {IsoLink},
