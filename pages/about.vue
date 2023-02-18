@@ -63,6 +63,8 @@
 			<li><a href="https://twitter.com/j0nathanj" target="_blank" rel="noopener">@j0nathanj</a></li>
 			<li><a href="https://twitter.com/Unblvr1" target="_blank" rel="noopener">@Unblvr1</a></li>
 			<li><a href="https://twitter.com/_neptunia_" target="_blank" rel="noopener">@_neptunia_</a></li>
+			<li><a href="https://twitter.com/vie_please" target="_blank" rel="noopener">@vie_please</a></li>
+			<li><a href="https://twitter.com/rkm0959" target="_blank" rel="noopener">@rkm0959</a></li>
 		</ul>
 	</section>
 </template>
