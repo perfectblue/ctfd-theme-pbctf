@@ -51,7 +51,7 @@
 				By signing up, you agree with our <a href="themes/pbctf/static/tnc.pdf"><u>T&C</u></a> and <a href="themes/pbctf/static/PRIVACYNOTICE.pdf"><u>Privacy Policy</u></a>
 			</div>
 			<div class="form-group">
-			<div class="g-recaptcha" data-size="normal" data-sitekey="6Le1WlwqAAAAAKJT7VlOBxrrhK-ihbjacN9vP552"></div>
+			<div class="g-recaptcha" data-size="normal" data-sitekey="6LcuXF4qAAAAAKdyDrRsct6MCtoeMe4sAZD9Arib"></div>
 			</div>
 			<div>
         You may choose to create a shared team or individual account here, (you
