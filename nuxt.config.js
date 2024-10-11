@@ -13,31 +13,31 @@ export default {
 	ssr: isStatic,
 
 	head: {
-		title: 'pbctf',
+		title: 'Blue Water CTF',
 		meta: [
 			{charset: 'utf-8'},
 			{name: 'viewport', content: 'width=device-width, initial-scale=1'},
 			{
 				name: 'description',
 				hid: 'description',
-				content: "pbctf is perfect blue's third annual capture the flag event",
+				content: "Blue Water CTF is a capture the flag event organized by perfect blue and Water Paddler.",
 			},
-			{name: 'apple-mobile-web-app-title', content: 'pbctf'},
-			{name: 'og:title', content: 'pbctf'},
-			{name: 'og:site_name', content: 'pbctf'},
-			{name: 'og:description', content: "pbctf is perfect blue's third annual capture the flag event"},
+			{name: 'apple-mobile-web-app-title', content: 'Blue Water CTF'},
+			{name: 'og:title', content: 'Blue Water CTF'},
+			{name: 'og:site_name', content: 'Blue Water CTF'},
+			{name: 'og:description', content: "Blue Water CTF is a capture the flag event organized by perfect blue and Water Paddler"},
 			{name: 'og:type', content: 'website'},
-			{name: 'og:url', content: 'https://ctf.perfect.blue'},
+			{name: 'og:url', content: 'https://bw.ctf.ing'},
 			{name: 'og:image', content: `${staticBase}/ogimage.png`},
 			{name: 'twitter:card', content: 'summary'},
 			{name: 'twitter:site', content: '@pb_ctf'},
-			{name: 'twitter:title', content: 'pbctf'},
+			{name: 'twitter:title', content: 'Blue Water CTF'},
 			{
 				name: 'twitter:description',
-				content: "pbctf is perfect blue's third annual capture the flag event",
+				content: "Blue Water CTF is a capture the flag event organized by perfect blue and Water Paddler",
 			},
 			{name: 'twitter:image', content: `${staticBase}/ogimage.jpg`},
-			{name: 'twitter:image:alt', content: 'pbctf'},
+			{name: 'twitter:image:alt', content: 'Blue Water CTF'},
 		],
 		link: [{rel: 'icon', type: 'image/png', href: `${staticBase}/icon.png`}],
 	},
@@ -66,14 +66,14 @@ export default {
 			if (!isStatic) {
 				return [];
 			}
-			const {data} = await axios.get('https://ctf.perfect.blue/api/v1/teams');
+			const {data} = await axios.get('https://bw.ctf.ing/api/v1/teams');
 			return data.data.map(({id}) => `/teams/${id}`);
 		},
 		concurrency: 5,
 	},
 
 	axios: {
-		baseURL: 'https://ctf.perfect.blue/',
+		baseURL: 'https://bw.ctf.ing/',
 		browserBaseURL: '/',
 	},
 
