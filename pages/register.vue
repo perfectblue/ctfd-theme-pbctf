@@ -1,6 +1,6 @@
 <template>
 	<section class="Register">
-		<script src="https://www.google.com/recaptcha/enterprise.js?render=6Le1WlwqAAAAAKJT7VlOBxrrhK-ihbjacN9vP552" async="true" defer=""></script>
+		<script src="https://www.google.com/recaptcha/api.js" async="true" defer=""></script>
 		<h2 class="title"><span>Register</span></h2>
 		<div class="subtitle">or <iso-link to="/login">Login</iso-link></div>
 		<form
@@ -51,6 +51,7 @@
 				By signing up, you agree with our <a href="themes/pbctf/static/tnc.pdf"><u>T&C</u></a> and <a href="themes/pbctf/static/PRIVACYNOTICE.pdf"><u>Privacy Policy</u></a>
 			</div>
 			<div class="form-group">
+			<div class="g-recaptcha" data-size="normal" data-sitekey="6Le1WlwqAAAAAKJT7VlOBxrrhK-ihbjacN9vP552"></div>
 			</div>
 			<div>
         You may choose to create a shared team or individual account here, (you
@@ -61,7 +62,7 @@
 			  <br />
 			</div>
 			<div>
-				<button id="submit" type="submit" tabindex="5" class="g-recaptcha" data-sitekey="6Le1WlwqAAAAAKJT7VlOBxrrhK-ihbjacN9vP552" data-action='submit'>
+				<button id="submit" type="submit" tabindex="5">
 					Submit
 				</button>
 			</div>
