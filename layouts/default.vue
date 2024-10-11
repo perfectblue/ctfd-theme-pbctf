@@ -114,7 +114,7 @@
 					<img class="zellic" src="../static/zellic2.png" alt="zellic">
 				</a>
 			</p>
-			<p>Organized by <a href="https://perfect.blue/" target="_blank" rel="noopener">perfect blue</a></p>
+			<p>Organized by <a href="https://perfect.blue/" target="_blank" rel="noopener">perfect blue</a> and <a href="https://waterpaddler.team/" target="_blank" rel="noopener">Water Paddler</a></p>
 			<p>Powered by <a href="https://ctfd.io/" target="_blank" rel="noopener">CTFd</a></p>
 			<p>Theme base by TSG CTF<img class="ojigineko" src="../static/ojigineko-white.gif" alt="ojigineko" width=14pt></p>
 		</div>

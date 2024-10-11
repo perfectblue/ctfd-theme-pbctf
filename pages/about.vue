@@ -3,9 +3,9 @@
 		<h2 class="title"><span>About</span></h2>
 		<h3>Period</h3>
 		<p class="period">
-			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230218T1400" target="_blank" rel="noopener">02/18 14:00</a>
+			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20241012T1400" target="_blank" rel="noopener">10/12 14:00</a>
 			-
-			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230220T0200" target="_blank" rel="noopener">02/20 02:00</a> <small>UTC</small>
+			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20241014T0200" target="_blank" rel="noopener">10/14 02:00</a> <small>UTC</small>
 		</p>
 
 		<!--
@@ -44,12 +44,15 @@
 		<a href="https://perfect.blue" target="_blank" rel="noopener">
 			<img class=logo src="https://blog.perfect.blue/img/logo.png">
 		</a>
+		<a href="https://waterpaddler.team" target="_blank" rel="noopener">
+			<img class=logo src="https://ctftime.org/media/cache/84/94/8494a42b84778569b83b8258d72de82d.png">
+		</a>
 		<p>
 			Blue Water CTF is organized by <a href="https://perfect.blue" target="_blank"
       rel="noopener">perfect blue</a> and <a href="https://waterpaddler.team" target="_blank"
       rel="noopener">Water Paddler </a>.
 		</p>
-		<br><p>Below is the full list of <a href="https://twitter.com/pb_ctf">perfect blue</a> members (and guests) who contributed to Blue Water CTF 2024 edition. Many thanks to their efforts!</p>
+		<br><p>Below is the full list of people who contributed to Blue Water CTF 2024 edition. Many thanks to their efforts!</p>
 		<ul class="credits">
 			<li><a href="https://twitter.com/ret2jazzy" target="_blank" rel="noopener">@ret2jazzy</a></li>
 			<li><a href="https://twitter.com/aaditya_purani" target="_blank" rel="noopener">@aaditya_purani</a></li>
@@ -57,14 +60,13 @@
 			<li><a href="https://twitter.com/sampriti0" target="_blank" rel="noopener">@sampriti0</a></li>
 			<li><a href="https://twitter.com/wcbowling" target="_blank" rel="noopener">@wcbowling</a></li>
 			<li><a href="https://twitter.com/kidofarcrania" target="_blank" rel="noopener">@kidofarcrania</a></li>
-			<li><a href="https://twitter.com/typeconfuser" target="_blank" rel="noopener">@typeconfuser</a></li>
 			<li><a href="https://twitter.com/RBTree_" target="_blank" rel="noopener">@RBTree_</a></li>
 			<li><a href="https://twitter.com/_VoidMercy" target="_blank" rel="noopener">@_VoidMercy</a></li>
 			<li><a href="https://twitter.com/j0nathanj" target="_blank" rel="noopener">@j0nathanj</a></li>
 			<li><a href="https://twitter.com/Unblvr1" target="_blank" rel="noopener">@Unblvr1</a></li>
 			<li><a href="https://twitter.com/_neptunia_" target="_blank" rel="noopener">@_neptunia_</a></li>
 			<li><a href="https://twitter.com/vie_please" target="_blank" rel="noopener">@vie_please</a></li>
-			<li><a href="https://twitter.com/rkm0959" target="_blank" rel="noopener">@rkm0959</a></li>
+			<li><a href="https://x.com/ah_p_uh" target="_blank" rel="noopener">@soon_haari</a></li>
 		</ul>
 	</section>
 </template>
