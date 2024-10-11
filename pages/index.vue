@@ -3,7 +3,7 @@
 		<div class="index-content">
 			<h1 class="ctf-logo">Blue Water CTF</h1>
 			<br>
-			<p class="subtitle">Blue Water CTF is a capture the flag event organized by perfect blue and Water Paddler</p>
+			<p class="subtitle">Blue Water CTF is a capture the flag event organized by Blue Water</p>
 			<div class="timer">{{timer}}</div>
 			<div v-if="!isLoggedIn" class="buttons">
 				<iso-link to="/login" class="button login">Login</iso-link>

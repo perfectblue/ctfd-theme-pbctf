@@ -20,12 +20,12 @@ export default {
 			{
 				name: 'description',
 				hid: 'description',
-				content: "Blue Water CTF is a capture the flag event organized by perfect blue and Water Paddler.",
+				content: "Blue Water CTF is a capture the flag event organized by Blue Water.",
 			},
 			{name: 'apple-mobile-web-app-title', content: 'Blue Water CTF'},
 			{name: 'og:title', content: 'Blue Water CTF'},
 			{name: 'og:site_name', content: 'Blue Water CTF'},
-			{name: 'og:description', content: "Blue Water CTF is a capture the flag event organized by perfect blue and Water Paddler"},
+			{name: 'og:description', content: "Blue Water CTF is a capture the flag event organized by Blue Water"},
 			{name: 'og:type', content: 'website'},
 			{name: 'og:url', content: 'https://bw.ctf.ing'},
 			{name: 'og:image', content: `${staticBase}/ogimage.png`},
@@ -34,7 +34,7 @@ export default {
 			{name: 'twitter:title', content: 'Blue Water CTF'},
 			{
 				name: 'twitter:description',
-				content: "Blue Water CTF is a capture the flag event organized by perfect blue and Water Paddler",
+				content: "Blue Water CTF is a capture the flag event organized by Blue Water",
 			},
 			{name: 'twitter:image', content: `${staticBase}/ogimage.jpg`},
 			{name: 'twitter:image:alt', content: 'Blue Water CTF'},
