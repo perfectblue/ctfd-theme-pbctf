@@ -117,7 +117,7 @@ export default {
 			const components = new URL(path, location.href).pathname.split('/');
 			const fileName = components[components.length - 1];
 			const challengeId = components[components.length - 2];
-			return `https://storage.googleapis.com/pbctf-2023-ctfd/${challengeId}/${fileName}`;
+			return `https://storage.googleapis.com/pbctf-2024-ctfd/${challengeId}/${fileName}`;
 		},
 		getSolvesText(solves) {
 			return `${solves} ${solves === 1 ? 'solve' : 'solves'}`;
@@ -131,7 +131,7 @@ export default {
 				return 'Contest has been ended';
 			}
 
-			return 'pbctf{......}';
+			return 'bwctf{......}';
 		},
 		async onSubmitFlag(event) {
 			event.preventDefault();

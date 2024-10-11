@@ -360,7 +360,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Settings - pbctf',
+			title: 'Settings - Blue Water CTF',
 		};
 	},
 };

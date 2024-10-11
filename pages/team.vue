@@ -44,7 +44,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Team - pbctf',
+			title: 'Team - Blue Water CTF',
 		};
 	},
 };

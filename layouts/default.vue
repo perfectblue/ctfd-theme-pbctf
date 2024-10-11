@@ -2,7 +2,7 @@
 	<div>
 		<div class="header">
 			<div class="title">
-				<iso-link to="/">pbctf 2023</iso-link>
+				<iso-link to="/">Blue Water CTF 2024</iso-link>
 			</div>
 			<div class="spacer"/>
 			<div v-if="isLoggedIn">
@@ -167,7 +167,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'pbctf',
+			title: 'Blue Water CTF',
 		};
 	},
 };

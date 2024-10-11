@@ -19,7 +19,7 @@
 			<li><b>BN Cloud Writeup </b> - 1 Binary Ninja personal license to best writeup showing Binary Ninja Cloud usage, 100 USD</li><br>
 		</ul>
 		-->
-		
+
 		<h3>Social</h3>
 		<ul class="socials">
 			<li>
@@ -45,11 +45,11 @@
 			<img class=logo src="https://blog.perfect.blue/img/logo.png">
 		</a>
 		<p>
-			pbctf is organized by <a href="https://perfect.blue" target="_blank"
-      rel="noopener">perfect blue</a>.
+			Blue Water CTF is organized by <a href="https://perfect.blue" target="_blank"
+      rel="noopener">perfect blue</a> and <a href="https://waterpaddler.team" target="_blank"
+      rel="noopener">Water Paddler </a>.
 		</p>
-		<p>perfect blue is the top ranked CTF team on CTFTime worldwide rankings since 2019. Follow <a href="https://blog.perfect.blue/perfect-blue-finishes-top-1-on-CTFtime-2020">here</a> to read more about us.</p>
-		<br><p>Below is the full list of <a href="https://twitter.com/pb_ctf">perfect blue</a> members (and guests) who contributed to this pbctf edition. Many thanks to their efforts!</p>
+		<br><p>Below is the full list of <a href="https://twitter.com/pb_ctf">perfect blue</a> members (and guests) who contributed to Blue Water CTF 2024 edition. Many thanks to their efforts!</p>
 		<ul class="credits">
 			<li><a href="https://twitter.com/ret2jazzy" target="_blank" rel="noopener">@ret2jazzy</a></li>
 			<li><a href="https://twitter.com/aaditya_purani" target="_blank" rel="noopener">@aaditya_purani</a></li>
@@ -76,7 +76,7 @@ export default {
 	components: {Timeline},
 	head() {
 		return {
-			title: 'About - pbctf',
+			title: 'About - Blue Water CTF',
 		};
 	},
 };

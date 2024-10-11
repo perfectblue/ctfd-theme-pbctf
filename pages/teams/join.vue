@@ -65,7 +65,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Join Team - pbctf',
+			title: 'Join Team - Blue Water CTF',
 		};
 	},
 };

@@ -20,7 +20,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Rules - pbctf',
+			title: 'Rules - Blue Water CTF',
 		};
 	},
 };

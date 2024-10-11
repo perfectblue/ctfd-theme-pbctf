@@ -20,7 +20,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Sponsors - pbctf',
+			title: 'Sponsors - Blue Water CTF',
 		};
 	},
 };

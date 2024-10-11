@@ -113,7 +113,7 @@ export default {
 	methods: {formatOrdinals},
 	head() {
 		return {
-			title: `Team ${this.team && this.team.name} - pbctf`,
+			title: `Team ${this.team && this.team.name} - Blue Water CTF`,
 		};
 	},
 };

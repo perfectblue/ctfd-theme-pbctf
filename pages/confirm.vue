@@ -43,7 +43,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Confirmation Step - pbctf',
+			title: 'Confirmation Step - Blue Water CTF',
 		};
 	},
 };

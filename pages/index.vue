@@ -1,9 +1,9 @@
 <template>
 	<section class="Index">
 		<div class="index-content">
-			<h1 class="ctf-logo">pbctf</h1>
+			<h1 class="ctf-logo">Blue Water CTF</h1>
 			<br>
-			<p class="subtitle">pbctf is perfect blue's third annual capture the flag event</p>
+			<p class="subtitle">Blue Water CTF is a capture the flag event organized by perfect blue and Water Paddler</p>
 			<div class="timer">{{timer}}</div>
 			<div v-if="!isLoggedIn" class="buttons">
 				<iso-link to="/login" class="button login">Login</iso-link>
@@ -17,8 +17,8 @@
 import IsoLink from '~/components/IsoLink.vue';
 import {mapState} from 'vuex';
 
-const contestStart = new Date('2023-02-18T14:00:00Z').getTime();
-const contestEnd = new Date('2023-02-20T02:00:00Z').getTime();
+const contestStart = new Date('2024-10-12T14:00:00Z').getTime();
+const contestEnd = new Date('2024-10-14T02:00:00Z').getTime();
 
 export default {
 	components: {IsoLink},
@@ -61,7 +61,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'pbctf',
+			title: 'Blue Water CTF',
 		};
 	},
 };

@@ -29,7 +29,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Reset Password - pbctf',
+			title: 'Reset Password - Blue Water CTF',
 		};
 	},
 };

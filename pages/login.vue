@@ -77,7 +77,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Login - pbctf',
+			title: 'Login - Blue Water CTF',
 		};
 	},
 };

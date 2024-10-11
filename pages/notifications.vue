@@ -28,7 +28,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Notifications - pbctf',
+			title: 'Notifications - Blue Water CTF',
 		};
 	},
 };
