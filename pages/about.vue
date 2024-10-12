@@ -54,19 +54,19 @@
 		</p>
 		<br><p>Below is the full list of people who contributed to Blue Water CTF 2024 edition. Many thanks to their efforts!</p>
 		<ul class="credits">
-			<li><a href="https://twitter.com/ret2jazzy" target="_blank" rel="noopener">@ret2jazzy</a></li>
-			<li><a href="https://twitter.com/aaditya_purani" target="_blank" rel="noopener">@aaditya_purani</a></li>
-			<li><a href="https://twitter.com/gf_256" target="_blank" rel="noopener">@gf_256 (cts)</a></li>
-			<li><a href="https://twitter.com/sampriti0" target="_blank" rel="noopener">@sampriti0</a></li>
-			<li><a href="https://twitter.com/wcbowling" target="_blank" rel="noopener">@wcbowling</a></li>
-			<li><a href="https://twitter.com/kidofarcrania" target="_blank" rel="noopener">@kidofarcrania</a></li>
-			<li><a href="https://twitter.com/RBTree_" target="_blank" rel="noopener">@RBTree_</a></li>
-			<li><a href="https://twitter.com/_VoidMercy" target="_blank" rel="noopener">@_VoidMercy</a></li>
-			<li><a href="https://twitter.com/j0nathanj" target="_blank" rel="noopener">@j0nathanj</a></li>
-			<li><a href="https://twitter.com/Unblvr1" target="_blank" rel="noopener">@Unblvr1</a></li>
-			<li><a href="https://twitter.com/_neptunia_" target="_blank" rel="noopener">@_neptunia_</a></li>
-			<li><a href="https://twitter.com/vie_please" target="_blank" rel="noopener">@vie_please</a></li>
-			<li><a href="https://x.com/ah_p_uh" target="_blank" rel="noopener">@soon_haari</a></li>
+			<li><a href="https://x.com/kidOfArcrania" target="_blank" rel="noopener">@kidOfArcrania</a></li>
+			<li><a href="https://x.com/j0nathanj" target="_blank" rel="noopener">@j0nathanj</a></li>
+			<li><a href="https://x.com/udp_ctf" target="_blank" rel="noopener">@udp_ctf</a></li>
+			<li><a href="https://x.com/TheGrandPew" target="_blank" rel="noopener">@TheGrandPew</a></li>
+			<li><a href="https://x.com/_Nobodyisnobody" target="_blank" rel="noopener">@_Nobodyisnobody</a></li>
+			<li><a href="https://x.com/ah_p_uh" target="_blank" rel="noopener">@ah_p_uh</a></li>
+			<li><a href="https://x.com/RBTree_" target="_blank" rel="noopener">@RBTree_</a></li>
+			<li><a href="https://x.com/vie_pls" target="_blank" rel="noopener">@vie_pls</a></li>
+			<li><a href="https://x.com/ret2jazzy" target="_blank" rel="noopener">@ret2jazzy</a></li>
+			<li><a href="https://x.com/josep68_" target="_blank" rel="noopener">@josep68_</a></li>
+			<li><a href="https://x.com/Strellic_" target="_blank" rel="noopener">@Strellic_</a></li>
+			<li><a href="https://x.com/sshckk" target="_blank" rel="noopener">@sshckk</a></li>
+			<li><a href="https://x.com/SuperFashi1" target="_blank" rel="noopener">@SuperFashi1</a></li>
 		</ul>
 	</section>
 </template>
